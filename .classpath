@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="lib" path="lib/GUI.jar"/>
+	<classpathentry kind="lib" path="lib/neo4j-jdbc-bolt-3.0.2.jar"/>
+	<classpathentry kind="lib" path="lib/neo4j-jdbc-driver-3.0.2.jar"/>
+	<classpathentry kind="lib" path="lib/neo4j-jdbc-http-3.0.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
