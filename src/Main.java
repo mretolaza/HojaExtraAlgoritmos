@@ -1,6 +1,7 @@
 
 /**
  * @author María Mercedes Retolaza Reyna, 16339
+ * @author Javier Ramos, 16230 
  * Clase Main que se encarga de ejecutar el programa.
  *
  */
