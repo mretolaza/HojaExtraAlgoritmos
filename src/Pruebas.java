@@ -12,6 +12,8 @@ import org.junit.Test;
 /**
  * @author María Mercees Retolaza Reyna, 16339 
  * @author Javier Ramos, 16230 
+ * @author Gadhi Rodriguez, 16206 
+ * @author Diego Fernandez, 16344
  * Clase para las JUnits.
  * Estas son las pruebas que se realizaron para identidicar la correcta utilizacion de dicho programa 
  *

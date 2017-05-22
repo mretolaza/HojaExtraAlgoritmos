@@ -22,6 +22,8 @@ import javax.swing.JTextField;
  * @author María Mercedes Retolaza Reyna, 16339 
  * @author Javier Ramos, 16230 
  * @author Diego Fernandez, 16344 
+ * @author Gadhi Rodriguez, 16206 
+ * @author Diego Fernandez, 16344
  * Clase que se encarga de dar la interfaz al usuario.
  */
 public class ClaseFrame extends JFrame implements ActionListener

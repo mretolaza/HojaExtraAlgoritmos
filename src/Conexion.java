@@ -10,6 +10,7 @@ import java.util.ArrayList;
  *@author María Mercedes Retolaza, 16339 
  *@author Diego Fernandez, 16344 
  *@author Javier Ramos, 16230 
+ * @author Gadhi Rodriguez, 16206 
  * Clase para hacer manejos con neo4j.
  * En esta clase se hace la conexion que se necesita para utilizar los comandos necesarios 
  */
