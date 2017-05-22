@@ -9,6 +9,7 @@ import java.util.ArrayList;
 /**
  *@author María Mercedes Retolaza, 16339 
  * Clase para hacer manejos con neo4j.
+ * En esta clase se hace la conexion que se necesita para utilizar los comandos necesarios 
  */
 public class Conexion {
 	/*Atributos*/
@@ -69,6 +70,7 @@ public class Conexion {
 	 * @param name2 Nombre del nodo destino
 	 * @param peso	Cantidad de correos representada con length.
 	 * Metodo para hacer las relaciones entre nodos.
+	 * Este metodo es importante para la realizacion del grafo 
 	 */
 	public void relacionar(String name1, String name2,String peso){
 		try {

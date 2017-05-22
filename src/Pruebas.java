@@ -12,6 +12,7 @@ import org.junit.Test;
 /**
  * @author María Mercees Retolaza Reyna, 16339 
  * Clase para las JUnits.
+ * Estas son las pruebas que se realizaron para identidicar la correcta utilizacion de dicho programa 
  *
  */
 public class Pruebas {
