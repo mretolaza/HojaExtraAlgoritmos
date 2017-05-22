@@ -16,7 +16,8 @@ import org.junit.Test;
  *
  */
 public class Pruebas {
-	/*Atributos*/
+	/*Atributos 
+	En esta Sección se declaran los atributos que se utilizarán para la realización de dicho proceso*/
 	private Procesos p = new Procesos();
 	private Conexion c = new Conexion();
 	private ResultSet rs=null;
