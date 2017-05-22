@@ -8,7 +8,6 @@ import java.util.ArrayList;
 
 /**
  *@author María Mercedes Retolaza, 16339 
- *@version 4.1 
  * Clase para hacer manejos con neo4j.
  */
 public class Conexion {
