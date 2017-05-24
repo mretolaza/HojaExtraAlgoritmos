@@ -46,7 +46,73 @@ public class ClaseFrame extends JFrame implements ActionListener
 		 * Constructor que arma el GUI.
 		 */
 		public ClaseFrame(){
+			contenedor=getContentPane();
+			contenedor.setLayout(null);
 			
+			/*Creamos el objeto*/
+			fileChooser=new JFileChooser();
+			 
+			/*Propiedades del Label, lo instanciamos, posicionamos y
+			 * activamos los eventos*/
+			labelTitulo= new JLabel();
+			labelTitulo.setText("Proyecto");
+			labelTitulo.setBounds(110, 20, 180, 23);
+			
+			areaDeTexto = new JTextArea();
+			areaDeTexto.setEditable(false);
+			//para que el texto se ajuste al area
+			areaDeTexto.setLineWrap(true);
+			//permite que no queden palabras incompletas al hacer el salto de linea
+			areaDeTexto.setWrapStyleWord(true);
+		   	scrollPaneArea = new JScrollPane();
+			scrollPaneArea.setBounds(20, 50, 350, 270);
+	        scrollPaneArea.setViewportView(areaDeTexto);
+	       	
+			/*Propiedades del boton, lo instanciamos, posicionamos y
+			 * activamos los eventos*/
+			botonAbrir= new JButton();
+			botonAbrir.setText("Boton 1");
+			botonAbrir.setBounds(30, 331, 91, 23);
+			botonAbrir.addActionListener(this);
+			
+			/*Agregamos los componentes al Contenedor*/
+			contenedor.add(labelTitulo);
+			contenedor.add(scrollPaneArea);
+			contenedor.add(botonAbrir);
+			
+			//Botones para el manejo de ui
+			btnNewButton = new JButton("Boton 2");
+			btnNewButton.setBounds(131, 331, 89, 23);
+			getContentPane().add(btnNewButton);
+			btnNewButton.addActionListener(this);
+			
+			btnNewButton_1 = new JButton("Boton 3");
+			btnNewButton_1.setBounds(230, 331, 94, 23);
+			getContentPane().add(btnNewButton_1);
+			btnNewButton_1.addActionListener(this);
+			
+			btnNewButton_2 = new JButton("Boton 4");
+			btnNewButton_2.setBounds(32, 378, 89, 23);
+			getContentPane().add(btnNewButton_2);
+			btnNewButton_2.addActionListener(this);
+			
+			btnNewButton_3 = new JButton("Boton 5");
+			btnNewButton_3.setBounds(131, 378, 89, 23);
+			getContentPane().add(btnNewButton_3);
+			btnNewButton_3.addActionListener(this);
+			
+			btnNewButton_4 = new JButton("Boton 6");
+			btnNewButton_4.setBounds(230, 378, 94, 23);
+			getContentPane().add(btnNewButton_4);
+			btnNewButton_4.addActionListener(this);
+			
+			JTextPane txtpnInstruccionesnBoton = new JTextPane();
+			txtpnInstruccionesnBoton.setEditable(false);
+			txtpnInstruccionesnBoton.setFont(new Font("Dialog", Font.PLAIN, 14));
+			txtpnInstruccionesnBoton.setBackground(SystemColor.control);
+			txtpnInstruccionesnBoton.setText("Instrucciones: \r\nCargar: Cargar datos.csv.\r\nBoton 1: Visualizar grafo.\r\nBoton 2: Visualizar relaciones que tienen mas de 6 correos.\r\nBoton 3: Simplificar grafo.\r\nBoton 4: Page-Rank.\r\nBoton 5: Mostrar personas mas y menos comunicadas.\r\nBoton 6:  Mostrar la cantidad m\u00EDnima de correos que ha enviado una persona directa e indirectamente a otra persona o a todas las otras personas.");
+			txtpnInstruccionesnBoton.setBounds(440, 50, 269, 304);
+			getContentPane().add(txtpnInstruccionesnBoton);
 			
 			txtNoHayArchivo = new JTextField();
 			txtNoHayArchivo.setEditable(false);
